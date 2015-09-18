@@ -6,11 +6,11 @@ require 'json'
 # read/write on dev.twitter.com and regenerate your access
 # token.  Enter the new values here:
 consumer_key = OAuth::Consumer.new(
-    "578ZZYvmKZCQ6FU1DiEoDBHK0",
-    "PO1kC55DgfY2ojPzGQIcxaHIqk7cNvmbe8zdpraUtbBzdBufXT")
+    "X",
+    "X")
 access_token = OAuth::Token.new(
-    "1912722282-LvRzn2CxWYl2Y5EO8yM1QmJ5aARzYevanCiouaG",
-    "LWykT9X8KChcjNP6Q3duG1ZyhsCBObHrrKZEL2vbUy5Ct")
+    "X",
+    "X")
 
 # Note that the type of request has changed to POST.
 # The request parameters have also moved to the body
