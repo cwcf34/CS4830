@@ -1,0 +1,36 @@
+  <script>
+        SC.initialize({
+            client_id: "c729c73ed424426a18fa7cd703f13788",
+          });
+
+          SC.oEmbed("https://soundcloud.com/teamvisionary/sets/logic-under-pressure", {color: "ff0066"},
+          document.getElementById("player"));
+
+          /* Some other stuff that I worked on that would take way to long to implement...
+            API - lets a user login through soundcloud to your website
+            SC.connect(function() {
+              SC.get('/me', function(me) {
+              alert('Hello, ' + me.username);
+            });
+            });
+
+            Allows your to ado alot such as edit their profile
+            SC.connect(function() {
+                SC.put('/me', {
+                user: { description: 'I am using the SoundCloud API!' }
+              }
+            );
+
+            And this could let you share to other social networks that are connect to your soundcloud
+            SC.connect(function() {
+              SC.post('/tracks/123/shared-to/connections', {
+                connections: [ { id: 456 } ],
+                  sharing-note: 'Check out my new sound'
+                  });
+              });
+              */
+
+        </script>
+    <body>
+        <div id="player"></div>
+    </body>
